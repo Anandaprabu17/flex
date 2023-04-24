@@ -1,0 +1,270 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.col1{
+    width: 200px;
+  background-color:violet;
+  color:black;
+  text-align:center;
+  height: 50px;
+  padding-top:15px;
+}
+.col2{
+    width: 200px;
+  background-color:rgb(49, 169, 238);
+  color:black;
+  text-align:center;
+  height: 50px;
+  padding-top:15px;
+}
+.col3{
+    width: 200px;
+  background-color:red;
+  color:white;
+  text-align:center;
+  height: 50px;
+  padding-top:15px;
+}
+.col4{
+    width: 200px;
+  background-color:aqua;
+  color:black;
+  text-align:center;
+  height: 50px;
+  padding-top:15px;
+}
+.col5{
+    width: 200px;
+  background-color:orange;
+  color:black;
+  text-align:center;
+  height: 50px;
+  padding-top:15px;
+}
+.col6{
+    width: 200px;
+  background-color:greenyellow;
+  color:black;
+  text-align:center;
+  height: 50px;
+  padding-top:15px;
+}
+.col7{
+    width: 200px;
+    background-color:paleturquoise;
+    color:black;
+    text-align:center;
+    height: 50px;
+    padding-top:15px;
+}
+.col8{
+    width: 200px;
+    background-color:blueviolet;
+    color:white;
+	height:50px;
+    text-align:center;
+    padding-top:15px;
+}
+.col9{
+     width: 200px;
+    background-color:brown;
+    color:white;
+    text-align:center;
+    height: 50px;
+    padding-top:15px;
+}
+.col10{
+    width: 200px;
+    background-color:green;
+    color:white;
+    text-align:center;
+    height: 50px;
+    padding-top:15px;
+}
+.col11{
+	 width: 200px;
+  background-color:violet;
+  color:black;
+  text-align:center;
+  padding-top:15px;
+}
+.col12{
+    width: 200px;
+  background-color:rgb(49, 169, 238);
+  color:black;
+  text-align:center;
+  padding-top:15px;
+}
+.col13{
+    width: 200px;
+  background-color:red;
+  color:white;
+  text-align:center;
+  padding-top:15px;
+}
+.col14{
+    width: 100px;
+  background-color:violet;
+  color:black;
+  text-align:center;
+  height: 90px;
+  padding-top:15px;
+}
+.col15{
+    width: 150px;
+  background-color:rgb(49, 169, 238);
+  color:black;
+  text-align:center;
+  height: 30px;
+  padding-top:15px;
+}
+.col16{
+    width: 180px;
+  background-color:red;
+  color:white;
+  text-align:center;
+  height: 100px;
+  padding-top:15px;
+}
+.row-1{
+    display:flex;
+    flex-direction:row;
+}
+.row-2{
+    display:flex;
+    flex-direction:column;
+}
+.row-3{
+    display:flex;
+    flex-direction:row-reverse;
+}
+.row-4{
+    display:flex;
+    flex-direction:column-reverse;
+}
+.row-5{
+    display:flex;
+    flex-wrap:wrap;
+}
+.row-6{
+    display:flex;
+    flex-wrap:nowrap;
+}
+.row-7{
+    display:flex;
+    flex-wrap:wrap-reverse;
+}
+.row-8{
+    display:flex;
+    justify-content:center;
+}
+.row-9{
+    display:flex;
+    justify-content:flex-start;
+}
+.row-10{
+    display: flex;
+    justify-content: flex-end;
+}
+.row-11{
+    display: flex;
+    justify-content: space-between;
+}
+.row-12{
+    display: flex;
+    justify-content: space-around;
+}
+.row-13{
+    display:flex;
+    justify-content:space-evenly;
+}
+.row-14{
+    display: flex;
+    gap: 20px;
+}
+.row-15{
+    height:200px;
+    background-color:aqua;
+    display:flex;
+    align-items:center;
+}
+.row-16{
+    height:200px;
+    background-color:aqua;
+    display:flex;
+    align-items:flex-start;
+}
+.row-17{
+    height:200px;
+    background-color:aqua;
+    display:flex;
+    align-items:flex-end;
+}
+.row-18{
+	height:200px;
+    background-color:aqua;
+    display:flex;
+    align-items:stretch;
+}
+.row-19{
+    height:200px;
+    background-color:aqua;
+    display:flex;
+    align-items:baseline;
+}
+.row-20{
+    height:200px;
+    background-color:aqua;
+    display:flex;
+    flex-wrap:wrap;
+    align-content:flex-start;
+}
+.row-21{
+    height:200px;
+    background-color:aqua;
+    display:flex;
+    flex-wrap:wrap;
+    align-content:flex-end;
+}
+.row-22{
+    height:200px;
+    background-color:aqua;
+    display:flex;
+    flex-wrap:wrap;
+    align-content:center;
+}
+.row-23{
+    height:200px;
+    background-color:aqua;
+    display:flex;
+    flex-wrap:wrap;
+    align-content:space-between;
+}
+.row-24{
+    height:200px;
+    background-color:aqua;
+    display:flex;
+    flex-wrap:wrap;
+    align-content:space-around;
+}
+.row-25{
+    height:200px;
+    background-color:aqua;
+    display:flex;
+    flex-wrap:wrap;
+    align-content:space-evenly;
+}
+.row-26{
+    height:200px;
+    background-color:aqua;
+    display:flex;
+    flex-wrap:wrap;
+	justify-content:center;
+    align-content:perfect center;
+}
+.row-27{
+	display:flex;
+	flex-flow:wrap row;
+}
